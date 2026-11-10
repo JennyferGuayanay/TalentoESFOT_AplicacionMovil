@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "uniwind";
+
+@theme {
+  --color-fondo: #F8EFFF;
+  --color-primario: #32156E;
+  --color-acento: #7628C7;
+  --color-tinta: #30265F;
+  --color-suave: #EDE0FF;
+  --color-lavanda: #CBA7FA;
+  --color-coral: #FF9EAE;
+  --color-blanco: #FFFFFF;
+  --color-morado: #5A1FA5;
+  --color-rosa: #FFE1E8;
+  --color-niebla: #F2E8FF;
+  --color-muted: #756A91;
+}

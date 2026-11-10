@@ -1,25 +1,22 @@
 {
   "expo": {
-    "name": "TalentoESFOT-Movil",
-    "slug": "TalentoESFOT-Movil",
+    "name": "TalentoESFOT Móvil",
+    "slug": "talentoesfot-movil",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "scheme": "talentoesfot",
     "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
-      "predictiveBackGestureEnabled": false
+      "package": "ec.edu.epn.talentoesfotmovil"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "plugins": [
+      "expo-web-browser",
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7a015d05-09cc-4461-bb1a-8d800a529aac"
+      }
     }
   }
 }
